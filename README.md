@@ -25,9 +25,13 @@ make
 
 ### Execution
 
+```
 ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat (optional)]
+```
 
 ### Example
 
+```
 ./philo 5 800 200 200 7
+```
 (Runs a simulation with 5 philosophers who die if they don't eat within 800ms, take 200ms to eat, take 200ms to sleep, and the simulation ends when all have eaten at least 7 times).
